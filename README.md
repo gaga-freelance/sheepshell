@@ -9,36 +9,36 @@ The Giantsheep front-end boilerplate and workflow
 * Install Gulp globally
 
 /If you have installed Gulp previously then run this otherwise skip this step/
-'$ npm rm --global gulp'
+`$ npm rm --global gulp`
 
 *Run this*
-''$ npm install --global gulp-cli'
+`$ npm install --global gulp-cli`
 
 * Install all those lovely packages
 
-'$ npm install'
+`$ npm install`
 
 * Run the thing
 
-'$ gulp'
+`$ gulp`
 
 * That's it!
 
 Your site should be serving at localhost:3000
 
-/The default gulp task is running browserSync and watching for changes in the app directory/
+*The default gulp task is running browserSync and watching for changes in the app directory*
 
 ### Other tasks
 
 * Image optimisation
 
-'$ gulp images'
+`$ gulp images`
 
 This optimises images throughout. Takes bare time though!
 
 *  Clean up the dist folder
 
-'$ gulp clean:dist'
+`$ gulp clean:dist`
 
 Because we don't like extra crap
 
