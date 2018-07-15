@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// Fonts
+
+$font-sans     :    'Montserrat', sans-serif;
+
+// Colours
+
 $base : #F7F6F0;
 $darken : darken(#F7F6F0 , 30%);
 $back: darken(#F7F6F0, 40%);
+
+$text-default  :  #444;
